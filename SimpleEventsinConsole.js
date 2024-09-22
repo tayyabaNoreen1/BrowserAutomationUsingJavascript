@@ -23,6 +23,6 @@ document.querySelector('ul.filters > li:nth-child(2) > a').click()
 document.querySelector('ul.filters > li:nth-child(3) > a').click()
 
 //To apply filters using hash change event i.e. event that changes fragment of url when fired
-location.hash="/"
-location.hash="/active"
-location.hash="/completed"
+location.hash = "/"
+location.hash = "/active"
+location.hash = "/completed"
